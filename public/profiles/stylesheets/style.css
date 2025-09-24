@@ -1,0 +1,138 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #F7F8FA;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #44492d;
+  overflow-x: hidden;
+}
+
+.profile {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  max-width: 1000px;
+}
+
+.profile-header {
+  background: #44492d;
+  color: rgba(255, 255, 255, 0.9);
+  height: 220px;
+}
+
+.profile-header a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.profile-header a:hover {
+  color: white;
+}
+
+.profile-pic {
+  height: 220px;
+}
+
+.profile-progress {
+  height: 0.6rem;
+}
+
+.name {
+  font-size: 2.25rem;
+  letter-spacing: 0.175rem;
+  font-weight: 900;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  position: relative;
+  color: #44492d;
+}
+
+.section-title:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.5px;
+  background: #8d9aad;
+}
+
+.section-content {
+  color: #58677c;
+}
+
+.p-badge {
+  background-color: #44492d;
+}
+
+.skills-cat {
+  font-size: 1rem;
+  color: #44492d;
+}
+
+.skill-name {
+  font-size: 0.8125rem;
+  color: #44492d;
+}
+
+.progress {
+  border-radius: 2px;
+}
+
+.theme-progress-bar-dark {
+  background-color: #44492d;
+}
+
+.timeline {
+  padding-left: 2rem;
+}
+
+.timeline:before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background: #aab4c3;
+  left: 6px;
+  top: 4px;
+  position: absolute;
+}
+
+.timeline-item:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  border: 4px solid #58677c;
+  background: white;
+  border-radius: 50%;
+}
+
+.position-time {
+  font-size: 0.875rem;
+  color: #aab4c3;
+}
+
+.project-name {
+  font-size: 1.125rem;
+  color: #44492d;
+}
+
+.role-name {
+  color: #58677c;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.timeline-item-desc-heading {
+  font-size: 1rem;
+}
+
