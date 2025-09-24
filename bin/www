@@ -19,7 +19,7 @@ app.set('port', port);
 const mongoose = require("mongoose");
 
 mongoose.set("strictQuery", false);
-const mongoDB = process.env.MONGODB_CONNECTION_STRING
+const mongoDB = process.env.MONGODB_URI
 
 async function connectMongoose() {
   await mongoose.connect(mongoDB);
