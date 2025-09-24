@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /**
  * Module dependencies.
  */
@@ -7,7 +5,6 @@
 var app = require('../app');
 var debug = require('debug')('my-profile-express:server');
 var http = require('http');
-const config = require('config');
 
 /**
  * Get port from environment and store in Express.
