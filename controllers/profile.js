@@ -29,6 +29,7 @@ module.exports.findAll = async () => {
 module.exports.findById = async (profile_id) => {
   var profile = await Profiles.findById(profile_id).populate("skills").populate("projects");
   profile.projects.sort((a,b) => b.till_date.getTime() - a.till_date.getTime());
+  profile.skills.sort((a, b) => b.scale - a.scale)
   return profile;
 }
 
